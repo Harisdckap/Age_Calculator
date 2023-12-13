@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Age_Calulator">
+        <H1>Age Calculator</H1>
+        <form name="AgeCal" id="Age_Cal">
+            <div id="Input">
+                <!-- <input type="date" id="Date_Calculate" name="Date_Cal"> -->
+                <input type="date" id="Date_Calculate" name="Date_Cal" min="1900-01-01" max="2023-12-13">
+             
+            </div>
+            <div id="Subbtn">
+                <button type="submit" name="Calculate" id="Submit_btn">Calculate</button>
+            </div>
+        </form>
+        <p class="Para"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
